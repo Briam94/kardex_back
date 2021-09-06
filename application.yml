@@ -1,0 +1,21 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: MICROSERVICIO-BACK-KARDEX
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: Madarfakar94*
+    url: jdbc:postgresql://localhost:5432/kardex
+    username: postgres
+    
+  jpa:
+     hibernate:
+       ddl-auto: none
+     properties:
+       hibernate:
+         dialect: org.hibernate.dialect.PostgreSQLDialect
+         jdbc:
+          lob:
+            non_contextual_creation: true
+     show-sql: 'true'
