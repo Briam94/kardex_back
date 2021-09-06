@@ -5,7 +5,7 @@ spring:
     name: MICROSERVICIO-BACK-KARDEX
   datasource:
     driver-class-name: org.postgresql.Driver
-    password: Madarfakar94*
+    password:
     url: jdbc:postgresql://localhost:5432/kardex
     username: postgres
     
